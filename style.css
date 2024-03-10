@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'open';
+    src: url('fonts/OpenSans-Italic-VariableFont_wdth\,wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('fonts/BebasNeue-Regular.ttf') format('truetype');
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-color: #060d1e;
+}
+
+.sistema-solar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    padding: 90px;}
+
+img{
+    width: 470px;
+    filter: drop-shadow(0 0 7px rgba(255, 255, 255, 0.52));
+}
+
+h1{
+    font-family: 'roboto';
+    color: white;
+    font-size: 5em;
+    margin-top: 35px;
+}
+
+p{
+    font-family: 'roboto';
+    color: white;
+    font-style: normal;
+    width: 60%;
+}
+
+#sol, #mercurio, #venus, #marte, #terra, #jupiter, #saturno, #urano, #netuno {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#sol > h1, #sol> p{
+    color:#d74005;
+}
+
+#venus > h1, #venus>p{
+    color: #DA8130;
+}
+
+#marte > h1, #marte > p{
+    color: #99220a;
+}
+
+#terra > h1, #terra > p{
+    color: #33407d;
+}
+
+#jupiter > h1 , #jupiter > p{
+    color: #66532a;
+}
+
+#saturno > h1, #saturno > p{
+    color: #CDAC85;
+}
+
+#urano > h1, #urano > p{
+    color: #0d5483;
+}
+
+#netuno>h1,#netuno>p{
+    color: #4470FE;
+}
